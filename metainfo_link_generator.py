@@ -33,13 +33,18 @@ for section in config.sections():
                 config2.set(section, option, '"0"')
             elif us == "y" and option.startswith("Region") and config.get(section, option) == '"Europe"':
                 config2.set(section, option, '"USA"')
-            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17214"':
+            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17201"':
                 config2.set(section, option, '"17218"')
-            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17215"':
+            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17202"':
                 config2.set(section, option, '"17219"')
-            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17216"':
+            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17203"':
                 config2.set(section, option, '"17220"')
-            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17217"':
+            elif us == "y" and option.startswith("Variant") and config.get(section, option) == '"17204
+            
+            
+            
+            
+        "':
                 config2.set(section, option, '"17221"')
             else:
                 config2.set(section, option, config.get(section, option))
